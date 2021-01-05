@@ -15,7 +15,6 @@ spec:
         - name: monitoring-agent
           image: monitoring-agent
 
-  replicas: 3
   selector:
     matchLabels:
       type: monitoring-agent
